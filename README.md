@@ -9,7 +9,6 @@
 
 ## Import using Gradle 
 
-
 	allprojects {
 		repositories {
 			...
@@ -28,13 +27,13 @@
 
   	//初始化设置包名用于跳转应用权限管理设置
   	 PermissionUtils.setPackageName("包名") 
+	 
 2、检查权限是否获取
 
   	 //检查权限
    	PermissionUtils.checkManyPermissons（Context context, String[] permissions）{...}
 	
 	//检查一组权限是否全部获取
-	
 	
 
 3、例子
@@ -45,7 +44,6 @@
             PermissionUtils.requestSinglePermission((Activity) mContext, Manifest.permission.WRITE_EXTERNAL_STORAGE, 2);
         }
 	
-	
    
   	//多个权限申请：
 	String[] permissons = {Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.BLUETOOTH,  Manifest.permission.CAMERA};
@@ -55,8 +53,6 @@
             PermissionUtils.requestManyPremisson(this, permissons, 1);
         }
 	
-
-
 
 ## Known issues
 
