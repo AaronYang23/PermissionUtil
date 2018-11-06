@@ -37,6 +37,7 @@
 	
 
 3、例子
+
    	//单个权限申请
    	if (PermissionUtils.checkPermisson(mContext, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
             //to do something
