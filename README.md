@@ -17,7 +17,7 @@
 	}
   
   	dependencies {
-	        implementation 'com.github.AaronYang23:PermissionUtil:v1.0'
+	        implementation 'com.github.AaronYang23:PermissionUtil:v1.0.1'
 	}
   
   
